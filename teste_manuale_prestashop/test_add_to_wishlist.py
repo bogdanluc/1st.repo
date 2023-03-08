@@ -26,8 +26,6 @@ class Test_Add_to_wishlist():
     def test_add_to_wishlist(self):
         #accesam pagina web
         self.driver.get("https://prestashop-ta26.multibit.ro/en/")
-        # setam rezolutia paginii
-        self.driver.set_window_size(1168, 637)
         # accesam pagina de logare
         self.driver.find_element(By.CSS_SELECTOR, "a > .hidden-sm-down").click()
         # click pe casuta email
